@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .LSKimg 
 {
   transition: 0.3s;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;  
+  -ms-transition: all .3s ease; 
+  -o-transition: all .3s ease;    
 }
 .LSKimg:hover 
 {
@@ -70,6 +74,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
   -ms-transform: scale(1.5);
   -moz-transform: scale(1.5);
   -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
   z-index: 6;
 }
 
