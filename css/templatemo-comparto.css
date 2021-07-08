@@ -36,6 +36,8 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
+  background-image:url(/img/back.jpg);
+  background-repeat: repeat;
 }
 
 h2 { font-size: 1.5rem; }
