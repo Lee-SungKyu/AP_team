@@ -8,14 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
     <link href="fontawesome/css/all.min.css" rel="stylesheet" />
     <link href="css/templatemo-comparto.css" rel="stylesheet" />
-    <title>Comparto HTML CSS Template</title>
-<!--
+    <title> 앱프로그래밍 팀플</title>
+    <!-- font-family: 'Noto Serif KR', serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
 
-Comparto TemplateMo
-
-https://templatemo.com/tm-544-comparto
-
--->
 </head>
 <!-- #1 = About, #2 = Serivce, #3 = Gallery, #4 = Contact 구간 번호 -->
 <body>
@@ -29,7 +25,7 @@ https://templatemo.com/tm-544-comparto
             <div class="tm-nav-container tm-bg-color-8">
                 <nav class="tm-nav" id="tm-nav">
                     <ul>
-                        <li class="tm-nav-item current">
+                        <li class="tm-nav-item ">
                             <a href="#about" class="tm-nav-link">
                                 <span class="tm-mb-1">.01</span>
                                 <span>About</span>
@@ -62,16 +58,19 @@ https://templatemo.com/tm-544-comparto
             <div class="tm-row tm-about-row">
                 <!-- #1 = About 구간 사진 -->
                 <div class="tm-section-1-l">
-                    <img src="img/comparto-image-01.jpg" alt="About image" class="tm-img-responsive">
+                    <img src="img/prayhand.jpg" alt="About image" class="tm-img-responsive" style="width: 700px; height: 700px;">
                 </div>
 
                 <article class="tm-section-1-r tm-bg-color-8">
-                    <h2 class="tm-mb-2 tm-title-color">.01 Comparto CSS Layout</h2> <!-- Header 구간 -->
+                    <h2 class="tm-mb-2 tm-title-color">About Us</h2> <!-- Header 구간 -->
                     <!-- Body 구간 -->
-                    <p><a rel="nofollow" href="https://templatemo.com/tm-544-comparto" target="_parent">Comparto</a> is a custom light-weight CSS layout for your website. You can easily adapt and use this for your commercial or personal websites. Feel free to use it.</p>
-                    <p>You cannot redistribute this template ZIP file in any template collection website. Please <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> if you have any question.</p>
-                    <p>Nunc sed gravida elit. Curabitur rutrum elit id lobortis viverra. Fusce at libero dui.</p>
-                    
+                    <div style="font-family: 'Noto Serif KR', serif; font-size: 16px;">
+                        <p>샬롬, 반갑습니다!<br>오늘 당신의 하루는 평안하셨나요?</p>
+                        <p>우리는 삶을 살아가면서 사랑이 필요한 순간, 감사가 필요한 순간, 따뜻한 위로가 필요한 순간, 그리고 훈계가 필요한 순간을 마주합니다.<br><strong>그 때,</strong> 여러분은 잘 해내고 있다고 자신있게 말할 수 있으신가요?</p>
+                        <p>이 사이트는 단순히 성경말씀과 설교 제공뿐만 아니라 앞으로 나아가야 할 길을 잃은 당신을 위한 기분별 말씀 캘리를 함께 추천하여 여러분을 도울 수 있습니다.</p>
+                        <p>삶에 지친 당신에게 잠시나마 쉬어가는 쉼터가 되기를 바라며.
+                        <br>** 이 사이트는 상업 목적이 아닙니다 **</p>
+                    </div>
                     <!-- #2 = Service 구간 넘어가기 -->
                     <a href="#services" class="tm-btn tm-btn-1 tm-link-to-services">More Detail</a>
                 </article>
@@ -82,24 +81,25 @@ https://templatemo.com/tm-544-comparto
             <div class="tm-icon">
                 <div class="tm-icon-inner">
                     <a href="#services"> <!-- 보라색 구간 Link 1, #2 = Service로 이동 -->
-                        <i class="fas fa-synagogue fa-4x tm-mb-1"></i>
-                        <p>Aenean vel est id massa condimentum</p>
+                        <img src="./img/bibleicon.png" style="width: 100px; height: 100px;">
+                        <p>눈과 귀가<br>함께 읽는 성경</p>
                     </a>
                 </div>
             </div>
             <div class="tm-icon">
                 <div class="tm-icon-inner">
-                    <a href="#gallery">  <!-- 보라색 구간 Link 2, #3 = Service로 이동-->
-                        <i class="fas fa-chart-bar fa-4x tm-mb-1"></i>
-                        <p>Suspendisse interdum lectus purus</p>
+                    <a href="#gallery">  <!-- 보라색 구간 Link 2, #3 = Service로 이동-->       
+                        <img src="./img/caliicon.png" style="width: 100px; height: 100px;">
+                        <p>기분별 말씀캘리<br>& 설교영상</p>
                     </a>
                 </div>
             </div>
             <div class="tm-icon">
                 <div class="tm-icon-inner">
                     <a href="#contact">  <!-- 보라색 구간 Link 3, #4 = Service로 이동-->
-                        <i class="fas fa-images fa-4x tm-mb-1"></i>
-                        <p>Nulla ac sodales est vel iaculis purus</p>
+                        <img src="./img/contacticon.png" style="width: 100px; height: 100px;">
+                        <p>건의 및 요청</p>
+
                     </a>
                 </div>
             </div>
@@ -127,139 +127,1862 @@ https://templatemo.com/tm-544-comparto
         <!-- #3 = Gallery 구간-->
         <section class="tm-bg-color-4 tm-mb-3 tm-gallery-section" id="gallery">
             <div class="tm-gallery-header">
-                <h2 class="tm-mb-1 text-right">.03 The Gallery Section</h2> <!-- Header 구간-->
-                <ul class="tm-gallery-filter tabs clearfix filters-button-group">
+                <h2 class="tm-mb-1 text-right"> The Gallery Section (말씀캘리)</h2> <!-- Header 구간-->
+                <ul class="tm-gallery-filter tabs clearfix filters-button-group" style="font-family: 'Noto Serif KR', serif;">
                     <!-- Button을 이용하여 각 사진들 ID 따라 출력 ID = [Show all, Nature, Animals, People]-->
-                    <li><a role="button" href="#" data-filter=".love">Show All</a></li>
-                    <li><a role="button" href="#" data-filter=".thanks">Nature</a></li>
-                    <li><a role="button" href="#" data-filter=".comfort">Animals</a></li>
-                    <li><a role="button" href="#" data-filter=".teaching">People</a></li>
+                    <li><a role="button" href="#" data-filter=".love">사랑</a></li>
+                    <li><a role="button" href="#" data-filter=".thank">감사</a></li>
+                    <li><a role="button" href="#" data-filter=".courage">위로</a></li>
+                    <li><a role="button" href="#" data-filter=".teaching">훈계</a></li>
+
                 </ul>
             </div>
             <!-- 각 사진들 -->
+            <!-- javascript 구현 -->
             <div class="tm-gallery-outer">
                 <div class="tm-gallery" id="tm-gallery">
-                    <!-- 1 -->
-                    <div class="tm-gallery-item testing">
-                        <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-01.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2> Too <span>CSS</span></h2>
-                                <p>It is a great blog you should explore.</p>
-                                <a href="#">View more</a>
+                      <!-- 용기 1 -->
+                      <div class="tm-gallery-item courage">
+                        <figure  class="effect-bubba">
+                            <img src="img/gallery/courage1.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick="alert('강하고 담대하라두려워하지 말며 놀라지 말라 네가 어디로 가든지 네 하나님 여호와가 너와 함께 하느니라 하시니라 [여호수아 1:9]')">
+                                <p>강하고 담대하라 
+                                    두려워하지 말며 놀라지 말라 
+                                    네가 어디로 가든지 
+                                    네 하나님 여호와가 너와 함께 하느니라 하시니라 
+                                    <br>[여호수아 1:9]</p>
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 2 -->
-                    <div class="tm-gallery-item animals">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-02.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Templates</h2>
-                                <p>best templates come from TemplateMo website.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage2.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('너는 두려워하지 말라 내가 너를 구속하였고 내가 너를 지명하여 불렀나니 너는 내 것이라')">
+                                <p>너는 두려워하지 말라 
+                                    내가 너를 구속하였고 
+                                    내가 너를 지명하여 불렀나니 
+                                    너는 내 것이라 
+                                    <br>[이사야 43:1]</p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 3 -->
-                    <div class="tm-gallery-item nature">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-03.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Web <span>Design</span></h2>
-                                <p>This is our special design work.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage3.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('주의 손이 나를 인도하시며 주의 오른손이 나를 불드시리이다 [시편 139:10]')">
+                                <p>주의 손이 나를 인도하시며 
+                                    주의 오른손이 나를 붙드시리이다 
+                                    <br>[시편 139:10] </p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 4 -->
-                    <div class="tm-gallery-item nature">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-04.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Free <span>HTML</span></h2>
-                                <p>HTML layouts are easy to edit.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage4.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('너희에게는 심지어 머리털까지도 다 세신 바 되었나니 두려워하지 말라 너희는 많은 참새보다 더 귀하니라 [누가복음 12:7]')">
+                                <p>너희에게는 심지어 머리털까지도 
+                                    다 세신 바 되었나니 두려워하지 말라 
+                                    너희는 많은 참새보다 더 귀하니라 
+                                    <br>[누가복음 12:7]  </p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 5 -->
-                    <div class="tm-gallery-item animals">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-05.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Just <span>Art</span></h2>
-                                <p>You can create your own art website.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage5.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('사람이 감당할 시험 밖에는 너희가 당한 것이 없나니 오직 하나님은 미쁘사 너희가 감당하지 못할 시험 당함을 허락하지 아니하시고 시험 당할 즈음에 또한 피할 길을 내사 너희로 능히 감당하게 하시느니라 [고린도전서 10:13]') ">
+                                <p style = "font-size:10px;">
+                                    사람이 감당할 시험 밖에는 
+                                    너희가 당한 것이 없나니 
+                                    오직 하나님은 미쁘사 
+                                    너희가 감당하지 못할 시험 당함을 
+                                    허락하지 아니하시고 
+                                    시험 당할 즈음에 또한 피할 길을 내사 
+                                    너희로 능히 감당하게 하시느니라 
+                                   <br> [고린도전서 10:13]</p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 6 -->
-                    <div class="tm-gallery-item animals">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-06.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Pro <span>Display</span></h2>
-                                <p>You can make your artwork gallery.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage6.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('하나님이 우리에게 주신 것은 두려워하는 마음이 아니요 오직 능력과 사랑과 절제하는 마음이니 그러므로 너는 내가 우리 주를 증언함과 또는 주를 위하여 갇힌 자 된 나를 부끄러워하지 말고 오직 하나님의 능력을 따라 복음과 함께 고난을 받으라 [디모데후서 1:7-8]')">
+                                <p style = "font-size:10px;">하나님이 우리에게 주신 것은 
+                                    두려워하는 마음이 아니요 
+                                    오직 능력과 사랑과 절제하는 마음이니 
+                                    그러므로 너는 내가 우리 주를 증언함과 
+                                    또는 주를 위하여 갇힌 자 된 나를 
+                                    부끄러워하지 말고 
+                                    오직 하나님의 능력을 따라 
+                                    복음과 함께 고난을 받으라 
+                                    <br> [디모데후서 1:7-8] 
+                                     </p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 7 -->
-                    <div class="tm-gallery-item people">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-07.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>The <span>Nature</span></h2>
-                                <p>You can create your own HTML website.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage7.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('너희 염려를 다 주께 맡기라 이는 그가 너희를 돌보심이라 [베드로전서 5:7]')">
+                                <p>너희 염려를 다 주께 맡기라 
+                                    이는 그가 너희를 돌보심이라 
+                                    <Br>[베드로전서 5:7]  </p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 8 -->
-                    <div class="tm-gallery-item people">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-08.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Color <span>Art</span></h2>
-                                <p>You can create your own CSS website.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage8.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('여호와가 너를 항상 인도하며 마른 곳에서도 네 영혼을 만족하게 하며 네 뼈를 견고하게 하리니 너는 물 댄 동산 같겠고 물이 끊어지지 아니하는 샘 같을 것이라 [이사야 58:11]')">
+                                <p style = "font-size:10px;">여호와가 너를 항상 인도하며
+                                    마른 곳에서도 네 영혼을 만족하게 하며 네 뼈를 견고하게 하리니
+                                    너는 물 댄 동산 같겠고
+                                    물이 끊어지지 아니하는 샘 같을 것이라
+                                    <Br>[이사야 58:11] </p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 9 -->
-                    <div class="tm-gallery-item people">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-09.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Take it <span>easy</span></h2>
-                                <p>You can create your own art gallery.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage9.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('네 짐을 여호와께 맡기라 그가 너를 붙드시고 의인의 요동함을 영원히 허락하지 아니하시리로다 [시편 55편 22절]')">
+                                <p>네 짐을 여호와께 맡기라 
+                                    그가 너를 붙드시고 
+                                    의인의 요동함을 영원히 허락하지 아니하시리로다
+                                   <br> [시편 55편 22절]</p>
+                                
                             </figcaption>
                         </figure>
                     </div>
                     <!-- 10 -->
-                    <div class="tm-gallery-item people">
+                    <div class="tm-gallery-item courage">
                         <figure class="effect-bubba">
-                            <img src="img/gallery/gallery-item-10.jpg" alt="Gallery item" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Share <span>This</span></h2>
-                                <p>You can make your own image gallery.</p>
-                                <a href="#">View more</a>
+                            <img src="img/gallery/courage10.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('내 영혼아 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해하는가 너는 하나님께 소망을 두라 나는 그가 나타나 도우심으로 말미암아 내 하나님을 여전히 찬송하리로다 [시편 42편 11절]')">
+                                <p style = "font-size:10px;">내 영혼아 네가 어찌하여 낙심하며 어찌하여 내 속에서 불안해하는가
+                                    너는 하나님께 소망을 두라 나는 그가 나타나 도우심으로 말미암아
+                                    내 하나님을 여전히 찬송하리로다
+                                    <Br> [시편 42편 11절] </p>
+                                
                             </figcaption>
                         </figure>
                     </div>
-                    
+                    <!-- 11 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage11.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('너는 내게 부르짖으라 내게 네게 응답하겠고 네가 알지 못하는 크고 은밀한 일을 네게 보이리라 [예레미야 33장 3절]')">
+                                <p>너는 내게 부르짖으라 내게 네게 응답하겠고
+                                    네가 알지 못하는 크고 은밀한 일을 네게 보이리라
+                                    <Br>[예레미야 33장 3절]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 12 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage12.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('내 영혼아 어찌하여 낙심하고 어찌하여 내속에서 불안해하는가 너는 하나님께 소망을 두라 그가 나타나 도우심으로 말미암아 내가 여전히 찬송하리로다 [시편 42장 5절]')">
+                                <p style = "font-size:10px;">내 영혼아 어찌하여 낙심하고
+                                    어찌하여 내속에서 불안해하는가
+                                    너는 하나님께 소망을 두라
+                                    그가 나타나 도우심으로 말미암아
+                                    내가 여전히 찬송하리로다
+                                   <br> [시편 42장 5절] </p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 13 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage13.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('나는 마음이 온유하고 겸손하니 나의 멍에를 메고 내게 배우라 그러면 너희 마음이 쉼을 얻으리니 [마태복음 11장 29절]')">
+                                <p>나는 마음이 온유하고 겸손하니 나의 멍에를 메고
+                                    내게 배우라 그러면 너희 마음이 쉼을 얻으리니 
+                                    <br>[마태복음 11장 29절]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 14 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage14.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('여호와여 주는 나의 등불이시니 여호와께서 나의 어둠을 밝히시리이다 [사무엘하 22장 29절]')">
+                                <p>여호와여 주는 나의 등불이시니
+                                    여호와께서 나의 어둠을 밝히시리이다
+                                    <Br> [사무엘하 22장 29절] </p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 15 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage15.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('정녕히 네 장래가 있겠고 네 소망이 끊어지지 아니하리라 [잠언 23장 18절]')">
+                                <p>정녕히 네 장래가 있겠고
+                                    네 소망이 끊어지지 아니하리라
+                                   <Br> [잠언 23장 18절] </p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 16 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage16.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('여호와께서 사무엘에게 이르시되 그의 용모와 키를 보지 말라 내가 이미 그를 버렸노라 내가 보는 것은 사람과 같지 아니하니 사람은 외모를 보거니와 나 여호와는 중심을 보느니라 하시더라 [사무엘상 16장 7절]')">
+                                <p style = "font-size:10px;">여호와께서 사무엘에게 이르시되 그의 용모와 키를 보지 말라 
+                                    내가 이미 그를 버렸노라
+                                    내가 보는 것은 사람과 같지 아니하니
+                                    사람은 외모를 보거니와
+                                    나 여호와는 중심을 보느니라 하시더라
+                                   <br> [사무엘상 16장 7절] </p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 17 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage17.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('생각하건대 현재의 고난은 장차 우리에게 나타날 영광과 비교할 수 없도다 [로마서 8장 18절]')">
+                                <p>생각하건대 현재의 고난은
+                                    장차 우리에게 나타날 영광과 비교할 수 없도다
+                                    <Br>[로마서 8장 18절] </p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 18 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage18.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('나의 하나님이 그리스도 예수 안에서 영광 가운데 그 풍성한 대로 너희 모든 쓸 것을 채우시리라 [빌립보서 4장 19절]')">
+                                <p>나의 하나님이 그리스도 예수 안에서 영광 가운데
+                                    그 풍성한 대로 너희 모든 쓸 것을 채우시리라
+                                    <Br> [빌립보서 4장 19절] </p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                
+                    <!-- 19 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage19.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라 [빌립보서 4장 13절]')">
+                                <p>내게 능력 주시는 자 안에서
+                                    내가 모든 것을 할 수 있느니라
+                                   <Br> [빌립보서 4장 13절]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 20 -->
+                    <div class="tm-gallery-item courage">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/courage20.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('낮에는 구름 기둥 밤에는 불 기둥이 백성 앞에서 떠나지 아니하리라 [출애굽기 13장 22절]')">
+                                <p>낮에는 구름 기둥
+                                    밤에는 불 기둥이
+                                    백성 앞에서 떠나지 아니하리라
+                                   <Br> [출애굽기 13장 22절]</p>
+                                
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                   <!-- 훈계 1 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach1.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('너희가 전에는 어둠이더니 이제는 주 안에서 빛이라 빛의 자녀들처럼 행하라 [에베소서 5:8]')">
+                            <p>너희가 전에는 어둠이더니
+                                이제는 주 안에서 빛이라
+                                빛의 자녀들처럼 행하라
+                               <br> [에베소서 5:8]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 2 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach2.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('너는 마음을 다하여 여호와를 신뢰하고 네 명철을 의지하지 말라 [잠언 3:5]')">
+                            <p>너는 마음을 다하여 여호와를 신뢰하고
+                                네 명철을 의지하지 말라
+                                <Br>[잠언 3:5]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 3 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach3.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('기도를 계속하고 기도에 감사함으로 깨어있으라 [골로새서 4:2]')">
+                            <p>기도를 계속하고
+                                기도에 감사함으로
+                                깨어있으라
+                                <br>[골로새서 4:2]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 4 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach4.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('자녀들아 모든 일에 부모에게 순종하라 이는 주 안에서 기쁘게 하는 것이니라 [골로새서 3:20]')">
+                            <p>자녀들아 모든 일에 부모에게 순종하라
+                                이는 주 안에서 기쁘게 하는 것이니라
+                                <br>[골로새서 3:20]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 5 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach5.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('부지런한 자의 경영은 풍부함에 이를 것이나 조급한 자는 궁핍함에 이를 따름이니라 [잠언 21: 5]')">
+                            <p>부지런한 자의 경영은 풍부함에 이를 것이나
+                                조급한 자는 궁핍함에 이를 따름이니라
+                                <Br>[잠언 21: 5]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 6 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach6.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('부지런한 자의 손은 사람을 다스리게 되어도 게으른 자는 부림을 받느니라 [잠언 12:24]')">
+                            <p>부지런한 자의 손은 사람을 다스리게 되어도
+                                게으른 자는 부림을 받느니라
+                                <Br>[잠언 12:24]
+                                </p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 7 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach7.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('좀 더 자자, 좀 더 졸자, 손을 모으고 좀 더 눕자 하면 네 빈궁이 강도 같이 오며 네 곤핍이 군사 같이 이르리라 [잠언  16:1]')">
+                            <p>좀 더 자자, 좀 더 졸자, 손을 모으고 좀 더 눕자 하면
+                                네 빈궁이 강도 같이 오며 네 곤핍이 군사 같이 이르리라
+                                <Br> [잠언  16:1]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 8-->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach8.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('손을 게으르게 놀리는 자는 가난하게 되고 손이 부지런한 자는 부하게 되느니라 [잠언 10:4]')">
+                            <p>손을 게으르게 놀리는 자는 가난하게 되고
+                                손이 부지런한 자는 부하게 되느니라
+                               <Br> [잠언 10:4]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 9-->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach9.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('죽고 사는 것이 혀의 권세에 달렸나니 혀를 쓰기 좋아하는 자는 그 열매를 먹으리라 [잠언 18:21]')">
+                            <p>죽고 사는 것이 혀의 권세에 달렸나니
+                                혀를 쓰기 좋아하는 자는 그 열매를 먹으리라
+                                <Br>[잠언 18:21]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 10-->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach10.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('돈을 사랑치 말고 있는 바를 족한 줄로 알라 그가 친히 말씀하시기를 내가 과연 너희를 버리지 아니하고 과연 너희를 떠나지 아니하리라 하셨느니라 [히브리서 13: 5]')">
+                            <p style = "font-size:10px;">돈을 사랑치 말고 있는 바를 족한 줄로 알라
+                                그가 친히 말씀하시기를
+                                내가 과연 너희를 버리지 아니하고
+                                과연 너희를 떠나지 아니하리라 하셨느니라
+                              <br>  [히브리서 13: 5]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 11 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach11.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('너는 청년의 정욕을 피하고 주를 깨끗한 마음으로 부르는 자들과 함께 의와 믿음과 사랑과 화평을 따르라 [디모데후서 2:22]')">
+                            <p>너는 청년의 정욕을 피하고
+                                주를 깨끗한 마음으로
+                                부르는 자들과 함께
+                                의와 믿음과 사랑과 화평을 따르라
+                                <br>[디모데후서 2:22]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 12 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach12.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('너희 몸은 너희가 하나님께로부터 받은 바 너희 가운데 계신 성령의 전인 줄을 알지 못하느냐 너희는 너희 자신의 것이 아니라 값으로 산 것이 되었으니 그런즉 너희 몸으로 하나님께 영광을 돌리라 [고린도전서 6:19-20]')">
+                            <p style = "font-size:10px;">너희 몸은 너희가 하나님께로부터 받은 바
+                                너희 가운데 계신 성령의 전인 줄을 알지 못하느냐
+                                너희는 너희 자신의 것이 아니라
+                                값으로 산 것이 되었으니
+                                그런즉 너희 몸으로 하나님께 영광을 돌리라
+                               <br> [고린도전서 6:19-20]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 13 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach13.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('선한 사람은 그 쌓은 선에서 선한 것을 내고 악한 사람은 그 쌓은 악에서 악한 것을 내느니라 [마태복음 12:35]')">
+                            <p>선한 사람은 그 쌓은 선에서
+                                선한 것을 내고
+                                악한 사람은 그 쌓은 악에서
+                                악한 것을 내느니라
+                               <Br> [마태복음 12:35]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 14 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach14.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('스스로 지혜롭게 여기지 말지어다 여호와를 경외하며 악을 떠날지어다 [잠언 3:7]')">
+                            <p>스스로 지혜롭게 여기지 말지어다
+                                여호와를 경외하며 악을 떠날지어다
+                                <Br>[잠언 3:7]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 15 -->
+                    <div class="tm-gallery-item teaching">
+                     <figure class="effect-bubba">
+                         <img src="img/gallery/teach15.png" alt="Gallery item" class="tm-img-responsive" />
+                         <figcaption onclick = "alert('아무도 비방하지 말며 다투지 말며 관용하며 범사에 온유함을 모든 사람에게 나타낼 것을 기억하게 하라 [디도서 3:2]')">
+                             <p>아무도 비방하지 말며 다투지 말며 관용하며
+                                범사에 온유함을 모든 사람에게 나타낼 것을 기억하게 하라
+                                <br>[디도서 3:2]</p>
+                             
+                         </figcaption>
+                     </figure>
+                     </div>
+                     <!-- 훈계 16 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach16.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('너희가 사람의 잘못을 용서하지 아니하면 너희 아버지께서도 너희 잘못을 용서하지 아니하시리라 [마태복음 6:15]')">
+                            <p>너희가 사람의 잘못을 용서하지 아니하면
+                                너희 아버지께서도 너희 잘못을 용서하지 아니하시리라
+                                <br> [마태복음 6:15]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 17 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach17.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('손님 대접하기를 잊지 말라 이로써 부지 중에 천사들을 대접한 이들이 있었느니라 [히브리서 13: 2]')">
+                            <p>손님 대접하기를 잊지 말라 
+                                이로써 부지 중에 천사들을 대접한 이들이 있었느니라
+                                <br> [히브리서 13: 2]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 18 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach18.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('음행과 온갖 더러운 것과 탐욕은 너희 중에서 그 이름이라도 부르지 마라 이는 성도의 마땅한 바니라 누추함과 어리석은 말이나 희롱의 말이 마땅치 아니하니 돌이켜 감사하는 말을 하라 [에베소서 5:3-4]')">
+                            <p style = "font-size:10px;">음행과 온갖 더러운 것과 탐욕은
+                                너희 중에서 그 이름이라도 부르지 마라
+                                이는 성도의 마땅한 바니라
+                                누추함과 어리석은 말이나 희롱의 말이 마땅치 아니하니
+                                돌이켜 감사하는 말을 하라
+                               <Br> [에베소서 5:3-4]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 19 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach19.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('너는 내일 일을 자랑하지 말라 하루동안 무슨 일이 날지는 네가 알 수 없음이니라 [잠언 27: 1]')">
+                            <p>너는 내일 일을 자랑하지 말라
+                                하루동안 무슨 일이 날지는 네가 알 수 없음이니라
+                               <br> [잠언 27: 1]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 훈계 20 -->
+                   <div class="tm-gallery-item teaching">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/teach20.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('무슨 일을 하든지 마음을 다하여 주께 하듯 하고 사람에게 하듯 하지 말라 [골로새서 3:23]')">
+                            <p>무슨 일을 하든지 마음을 다하여 주께 하듯 하고
+                                사람에게 하듯 하지 말라
+                                <br>[골로새서 3:23]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+
+                    <!-- 사랑 1 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love1.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라 너희가 서로 사랑하면 이로써 모든 사람이 노희가 내 제자인 줄 알리라 [요 13:34-35]')">
+                            <p style = "font-size:10px;">새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라<br>너희가 서로 사랑하면 이로써 모든 사람이 노희가 내 제자인 줄 알리라<br>[요 13:34-35]</p>
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 2 -->
+                    <div class="tm-gallery-item love">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/love2.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('나의 사랑 너는 순전히 어여뻐서 아무 흠이 없구나 [아 4:7]')">
+                                <p>나의 사랑 너는 순전히 어여뻐서 아무 흠이 없구나<br>[아 4:7]</p>
+                                
+                            </figcaption>
+                        </figure>
+                        </div>
+                    <!-- 사랑 3 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love3.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('하나님이 이르시되 그가 나를 사랑한 즉 내가 그를 건지리라 그가 내 이름을 안즉 내가 그를 높이리라 [시 91:14]')">
+                            <p>하나님이 이르시되 그가 나를 사랑한 즉 내가 그를 건지리라 그가 내 이름을 안즉 내가 그를 높이리라<br>
+                                [시 91:14]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 4 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love4.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('허물을 덮어주는 자는 사랑을 구하는 자요 그것을 거듭 말하는 자는 친한 벗을 이간하는 자니라 [잠 17:9]')">
+                            <p>허물을 덮어주는 자는 사랑을 구하는 자요 그것을 거듭 말하는 자는 친한 벗을 이간하는 자니라<br>
+                                [잠 17:9]</p>
+                                
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 5 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love5.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('나의 힘이신 여호와여 내가 주를 사랑하나이다 [시 18:1]')">
+                            <p>나의 힘이신 여호와여 내가 주를 사랑하나이다<br>
+                                [시 18:1]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 6 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love6.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('너는 마음을 다하고 뜻을 다하고 힘을 다하여 네 하나님 여호와를 사랑하라 [신 6:5]')">
+                            <p>너는 마음을 다하고 뜻을 다하고 힘을 다하여 네 하나님 여호와를 사랑하라<br>
+                                [신 6:5]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 7 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love7.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('서로 돌아보아 사랑과 선행을 격려하며 [히 10:24]')">
+                            <p>서로 돌아보아 사랑과 선행을 격려하며<br>
+                                [히 10:24]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 8 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love8.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('그의 계명은 이것이니 곧 그의 아들 예수 그리스도의 이름을 믿고 그가 우리에게 주신 계명대로 서로 사랑할 것이니라 [요일 3:23]')">
+                            <p style = "font-size:10px;">그의 계명은 이것이니 곧 그의 아들 예수 그리스도의 이름을 믿고 그가 우리에게 주신 계명대로 서로 사랑할 것이니라<br>
+                                [요일 3:23]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 9 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love9.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('사랑은 이웃에게 악을 행하지 아니하나니 그러므로 사랑은 율법의 완성이니라 [롬 13:10]')">
+                            <p>사랑은 이웃에게 악을 행하지 아니하나니 그러므로 사랑은 율법의 완성이니라<br>
+                                [롬 13:10]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 10 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love10.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('사랑하는자여 너의 영혼이 잘됨같이 언제나 범사에 잘되고 강건하기를 내가 간구하노라 [요삼 1:2]')">
+                            <p>사랑하는자여 너의 영혼이 잘됨같이 언제나 범사에 잘되고 강건하기를 내가 간구하노라<br>
+                                [요삼 1:2]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 11 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love11.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('나를 사랑하는 자들이 나의 사랑을 입으며 나를 간절히 찾는 자가 나를 만날 것이니라 [잠 8:17]')">
+                            <p>나를 사랑하는 자들이 나의 사랑을 입으며 나를 간절히 찾는 자가 나를 만날 것이니라<br>
+                                [잠 8:17]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 12 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love12.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('미움은 다툼을 일으켜도 사랑은 모든 허물을 가리느니라 [잠 10:12]')">
+                            <p>미움은 다툼을 일으켜도 사랑은 모든 허물을 가리느니라<br>
+                                [잠 10:12]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 13 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love13.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('나를 사랑하고 내 계명을 지키는 자에게는 천대까지 은혜를 베푸느니라 [출 20:6]')">
+                            <p style = "font-size:10px;">나를 사랑하고 내 계명을 지키는 자에게는 천대까지 은혜를 베푸느니라<br>
+                                [출 20:6]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 14 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love14.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('그리스도께서 너희를 사랑하신 것 같이 너희도 사랑 가운데서 행하라 그는 우리를 위하여 자신을 버리사 향기로운 제물과 희생제물로 하나님께 드리셨느니라 [엡 5:2]')">
+                            <p style = "font-size:10px;">그리스도께서 너희를 사랑하신 것 같이 너희도 사랑 가운데서 행하라 그는 우리를 위하여 자신을 버리사 향기로운 제물과 희생제물로 하나님께 드리셨느니라<br>
+                                [엡 5:2]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 15 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love15.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('높음이나 깊음이나 다른 어떤 피조물이라도 우리를 우리 주 그리스도 예수 안에 있는 하나님의 사랑에서 끊을 수 없으리라 [롬 8:39]')">
+                            <p>높음이나 깊음이나 다른 어떤 피조물이라도 우리를 우리 주 그리스도 예수 안에 있는 하나님의 사랑에서 끊을 수 없으리라<br>
+                                [롬 8:39]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 16 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love16.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('무엇보다도 열심으로 서로 사랑할찌니 사랑은 허다한 죄를 덮느니라 [벧전 4:8]')">
+                            <p>무엇보다도 열심으로 서로 사랑할찌니 사랑은 허다한 죄를 덮느니라<br>
+                                [벧전 4:8]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 17 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love17.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는자마다 멸망하지 않고 영생을 얻게하려 하심이라 [요 3:16]')">
+                            <p>하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는자마다 멸망하지 않고 영생을 얻게하려 하심이라<br>[요 3:16]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 18 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love18.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('마음을 같이하여 같은 사랑을 가지고 뜻을 합하며 한 마음을 품어 [빌 2:2]')">
+                            <p>마음을 같이하여 같은 사랑을 가지고 뜻을 합하며 한 마음을 품어<br>[빌 2:2]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 19 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love19.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('그런즉 믿음, 소망, 사랑 이 세가지는 항상 있을 것인데 그중의 제일은 사랑이라 [고전 13:13]')">
+                            <p>그런즉 믿음, 소망, 사랑 이 세가지는 항상 있을 것인데 그중의 제일은 사랑이라<br>
+                                [고전 13:13]</p>
+                                
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+                    <!-- 사랑 20 -->
+                   <div class="tm-gallery-item love">
+                    <figure class="effect-bubba">
+                        <img src="img/gallery/love20.png" alt="Gallery item" class="tm-img-responsive" />
+                        <figcaption onclick = "alert('마음으로 뜨겁게 피차 사랑하라 [벧전 1:22]')">
+                            <p>마음으로 뜨겁게 피차 사랑하라<br>
+                                [벧전 1:22]</p>
+                            
+                        </figcaption>
+                    </figure>
+                    </div>
+
+                    <!-- 감사 1 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks1.png" alt="Gallery item" class="tm-img-responsive">
+                            <figcaption onclick = "alert('우리 하나님이여 이제 우리가 주께 감사하오며 주의 영화로운 이름을 찬양하나이다 [역대상 29:13]')">
+                                <p>우리 하나님이여 이제 우리가 주께 감사하오며 주의 영화로운 이름을 찬양하나이다.<br>
+                                    <b>[역대상 29:13]</b></p>                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 2 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks2.png" alt="Gallery item" class="tm-img-responsive" >
+                            <figcaption onclick = "alert('항상 기뻐하라 쉬지 말고 기도하라 범사에 감사하라 이는 그리스도 예수 안에서 너희를 향하신 하나님의 뜻이니라 [데살로니가 전서 5:16-18]')">
+                                <p>항상 기뻐하라 쉬지 말고 기도하라 범사에 감사하라 이는 그리스도 예수 안에서 너희를 향하신 하나님의 뜻이니라<br>
+                                    [데살로니가 전서 5:16-18]</p>                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 3 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks3.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('감사함으로 그 문에 들어가며 찬송함으로 그 궁정에 들어가서 그에게 감사하며 그 이름을 송축할지어다 [시편 100:4]')">
+                                <p style = "font-size:10px;">감사함으로 그 문에 들어가며 찬송함으로 그 궁정에 들어가서 그에게 감사하며 그 이름을 송축할지어다<br>
+                                    [시편 100:4]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 4 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks4.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('나의 여호와로 말미암아 즐거워하며 나의 구원의 하나님으로 말미암아 기뻐하리로다 [하박국 3:18]')">
+                                <p>나의 여호와로 말미암아 즐거워하며 나의 구원의 하나님으로 말미암아 기뻐하리로다<br>
+                                    [하박국 3:18]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 5 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks5.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('여호와께 감사하라 그는 선하시며 그의 인자하심이 영원함이로다 [시편 118:1]')">
+                                <p>여호와께 감사하라 그는 선하시며 그의 인자하심이 영원함이로다<br>
+                                    [시편 118:1]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 6 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks6.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('하나님께서 지으신 모든 것이 선하매 감사함으로 받으면 버릴 것이 없나니 하나님의 말씀과 기도로 거룩하여 짐이라 [디모데전서 4:4-5]')">
+                                <p style = "font-size:10px;">하나님께서 지으신 모든 것이 선하매 감사함으로 받으면 버릴 것이 없나니 하나님의 말씀과 기도로 거룩하여 짐이라<br>
+                                    [디모데전서 4:4-5]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 7 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks7.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('하나님의 약속은 얼마든지 그리스도 안에서 예가 되니 그런즉 그로 말미암아 우리가 아멘하여 하나님께 영광을 돌리게 되느니라 [고린도후서 1:20]')">
+                                <p style = "font-size:10px;">하나님의 약속은 얼마든지 그리스도 안에서 예가 되니 그런즉 그로 말미암아 우리가 아멘하여 하나님께 영광을 돌리게 되느니라<br>
+                                    [고린도후서 1:20]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 8 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks8.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('하늘의 하나님께 감사하라 그 인자하심이 영원함이로다 [시편 136:26]')">
+                                <p>하늘의 하나님께 감사하라 그 인자하심이 영원함이로다<br>
+                                    [시편 136:26]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 9 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks9.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('주께서 이를 행하셨으므로 내가 영원히 주께 감사하고 주의 이름이 선함으로 주의 성도 앞에서 내가 주의 이름을 사모하리이다 [시편 52:9]')">
+                                <p>주께서 이를 행하셨으므로 내가 영원히 주께 감사하고 주의 이름이 선함으로 주의 성도 앞에서 내가 주의 이름을 사모하리이다<br>
+                                    [시편 52:9]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 10 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks10.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('내가 주의 의로운 판단을 배울 때에는 정직한 마음으로 주께 감사하리이다 [시편 119:7]')">
+                                <p>내가 주의 의로운 판단을 배울 때에는 정직한 마음으로 주께 감사하리이다<br>
+                                    [시편 119:7]</p>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 11 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks11.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('하나님이여 주의 인자하심이 어찌 그리 보배로우신지요 인생이 주의 날개 그늘 아래 피하나이다 [시편 36:7]')">
+                                <p>하나님이여 주의 인자하심이 어찌 그리 보배로우신지요 인생이 주의 날개 그늘 아래 피하나이다<br>
+                                    [시편 36:7]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 12 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks12.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('아무것도 염려하지 말고 오직 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라 [빌립보서 4:6]')">
+                                <p>아무것도 염려하지 말고 오직 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라<br>
+                                    [빌립보서 4:6]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 13 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks13.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('우리 주 예수 그리스도로 말미암아 우리에게 이김을 주시는 하나님께 감사하노니 그러므로 내 사랑하는 형제들아 견고하며 흔들리지 말며 항상 주의 일에 더욱 힘쓰는 자들이 되라 [고린도전서 15:57-58]')">
+                                <p style = "font-size:10px;">우리 주 예수 그리스도로 말미암아 우리에게 이김을 주시는 하나님께 감사하노니 그러므로 내 사랑하는 형제들아 견고하며 흔들리지 말며 항상 주의 일에 더욱 힘쓰는 자들이 되라<br>
+                                    [고린도전서 15:57-58]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 14 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks14.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('너희는 그 은혜에 의하여 믿음으로 말미암아 구원을 받았으니 이것은 너희에게서 난 것이 아니요 하나님의 선물이라 [에베소서 2:8]')">
+                                <p style = "font-size:10px;">너희는 그 은혜에 의하여 믿음으로 말미암아 구원을 받았으니 이것은 너희에게서 난 것이 아니요 하나님의 선물이라<br>
+                                    [에베소서 2:8]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 15 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks15.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('긍휼에 풍성하신 하나님이 우리를 사랑하신 그 큰 사랑을 인하여 허물로 죽은 우리를 그리스도 와 함께 살리셨고 [에베소서 2:4-5]')">
+                                <p>긍휼에 풍성하신 하나님이 우리를 사랑하신 그 큰 사랑을 인하여 허물로 죽은 우리를 그리스도 와 함께 살리셨고<br>
+                                    [에베소서 2:4-5]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 16 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks16.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('오직 나는 여호와를 우러러보며 나를 구원하시는 하나님을 바라보나니 나의 하나님이 나에게 귀를 기울이시로다 [미가 7:7]')">
+                                <p>오직 나는 여호와를 우러러보며 나를 구원하시는 하나님을 바라보나니 나의 하나님이 나에게 귀를 기울이시로다<br>
+                                    [미가 7:7]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 17 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks17.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('그러나 우리로 그리스도 안에서 항상 승리하게 하시며 우리를 통해서 모든 장소에서 그리스도를 아는 냄새를 나타낼 수 있게 하시는 하나님께 감사를 드립니다 우리는 구원받은 사람들에게나 멸망하는 자들에게나 하나님 앞에서 그리스도의 향기입니다')">
+                                <p style = "font-size:10px;">그러나 우리로 그리스도 안에서 항상 승리하게 하시며 우리를 통해서 모든 장소에서 그리스도를 아는 냄새를 나타낼 수 있게 하시는 하나님께 감사를 드립니다 우리는 구원받은 사람들에게나 멸망하는 자들에게나 하나님 앞에서 그리스도의 향기입니다<br>
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 18 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks18.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('여호와께서 너를 위하여 하늘의 아름다운 보고를 여시사 네 땅에 때에 따라 비를 내리시고 네 손으로 하는 모든 일에 복을 주시리니 [신명기 28:12]')">
+                                <p>여호와께서 너를 위하여 하늘의 아름다운 보고를 여시사 네 땅에 때에 따라 비를 내리시고 네 손으로 하는 모든 일에 복을 주시리니<br>
+                                    [신명기 28:12]</p>                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 19 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks19.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('여호와는 네게 복을 주시고 너를 지키시기를 원하며 여호와는 그의 얼굴을 네게 비추사 은혜 베푸시기를 원하며 여호와는 그 얼굴을 네게로 향하여드사 평강 주시기를 원하노라 [민수기 6:24-26]')">
+                                <p style = "font-size:10px;">여호와는 네게 복을 주시고 너를 지키시기를 원하며 여호와는 그의 얼굴을 네게 비추사 은혜 베푸시기를 원하며 여호와는 그 얼굴을 네게로 향하여드사 평강 주시기를 원하노라<br>
+                                    [민수기 6:24-26]</p>
+                                    
+                                
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 20 -->
+                    <div class="tm-gallery-item thank">
+                        <figure class="effect-bubba">
+                            <img src="img/gallery/Thanks20.png" alt="Gallery item" class="tm-img-responsive" />
+                            <figcaption onclick = "alert('하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라 [요한복음 3:16]')">
+                                <p>하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라<br>
+                                    [요한복음 3:16]</p>
+                                    
+                            </figcaption>
+                        </figure>
+                    </div>
+                
                 </div>
             </div>
         </section>
+
         <!-- 1 -->
-        <section class="tm-bg-color-4 tm-mb-3 tm-gallery-section" id="gallery"></section>
-        <!-- 2 -->
-        <section class="tm-bg-color-4 tm-mb-3 tm-gallery-section" id="gallery"></section>
+        <section class="tm-bg-color-4 tm-mb-3 tm-gallery-section" id="gallery">
+            <div class="tm-gallery-header">
+                <h2 class="tm-mb-1 text-right">The Gallery Section (설교, 찬양)</h2> <!-- Header 구간-->
+                <ul class="tm-gallery-filter tabs clearfix filters-button-group" style="font-family: 'Noto Serif KR', serif;">
+                    <!-- Button을 이용하여 각 사진들 ID 따라 출력 ID = [Show all, Nature, Animals, People]-->
+                    <li><a role="button" href="#" data-filter=".happy"> 기쁨 </a></li>
+                    <li><a role="button" href="#" data-filter=".sad"> 슬픔 </a></li>
+                    <li><a role="button" href="#" data-filter=".thanks2"> 감사  </a></li>
+                    <li><a role="button" href="#" data-filter=".comfort"> 위로 </a></li>
+                </ul>
+            </div>
+            <!-- 각 사진들 -->
+            <!-- javascript 구현 -->
+            <div class="tm-gallery-outer">
+                <div class="tm-gallery" id="tm-gallery">
+                    <!-- 감사1 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href = "https://www.youtube.com/watch?v=cRQ0rPDJEKg"><img src="img/gallery/감사1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br> 감사하고 또 감사하라 <br><br> <strong>설교자:</strong> <br>선한목자교회 유기성 목사</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 감사2 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=BKli_9pqkfE"><img src="img/gallery/감사2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br> 감사를 표현할 때 일어나는 기적 <br> <strong>설교자:</strong> <br>분당우리교회 이찬수 목사
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>   
+                    <!-- 감사3 --> 
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=CYzAvOyYqOI"><img src="img/gallery/감사3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  오늘 이 순간을 감사하라 <br><br> <strong>설교자:</strong> <br>분당우리 교회 이찬수 목사
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 감사4 --> 
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=McfBU81DAjU"><img src="img/gallery/감사4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  범사에 감사하는 은혜 <br><br> <strong>설교자:</strong> <br>사랑의 교회 옥한흠 목사님
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 감사5 -->  
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=HC88NdNjM5A"><img src="img/gallery/감사5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  감사가 가장 큰 믿음이다 <br><br> <strong>설교자:</strong> <br> 선한목자 교회 유기성 목사
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+                    <!-- 감사6 -->    
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=Y5IJsOABG2M"><img src="img/gallery/감사6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  감사의 이유 <br> <strong>설교자:</strong> <br> 꿈이 있는 교회 다니엘김 목사
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+                    <!-- 슬픔1 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=kKbUlwXbqVw"><img src="img/gallery/슬픔1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  슬픔과 고통의 세상 <br><br> <strong>설교자:</strong> <br> 나들목 교회 김형국 목사님
+
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+                    <!-- 슬픔2 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=I3LaH3--aD0"><img src="img/gallery/슬픔2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  하나님이 슬픔을 허락하시는 이유 <br> <strong>설교자:</strong> <br> 존 파이퍼 목사
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+                    <!-- 슬픔3 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=kuzVvqYq3l4"><img src="img/gallery/슬픔3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  마음이 무너질 때 찾아오는 은혜 <br> <strong>설교자:</strong> <br> 선한목자교회 유기성 목사
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+                    <!-- 슬픔4 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=q8Azm26OFxI"><img src="img/gallery/슬픔4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  무엇이 그리 마음을 아프게 하는가 <br> <strong>설교자:</strong> <br> 선한목자교회 유기성 목사
+
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+                    <!-- 슬픔5 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=FY5mqnzimWc"><img src="img/gallery/슬픔5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  부활, 슬픔을 기쁨으로 바꾸다 <br> <strong>설교자:</strong> <br> <span style = "font-size:17.5px;">온누리침례교회박승진목사</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+                    <!-- 슬픔6 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=Nyh7rNuVbNU"><img src="img/gallery/슬픔6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  어떤 목사의 고백 <br><br> <strong>설교자:</strong> <br> 마지막 사명 앤드류강 목사
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 기쁨1 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=kKbUlwXbqVw"><img src="img/gallery/기쁨1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  큰 기쁨의 좋은 선물 <br><br> <strong>설교자:</strong> <br> 분당우리 교회 이찬수 목사
+
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 기쁨2 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=2WbZIcQT5CI"><img src="img/gallery/기쁨2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  선택적 기쁨, 결과 <br><br> <strong>설교자:</strong> <br> 분당우리 교회 이찬수 목사
+
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 기쁨3 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=1njq1xS6ook"><img src="img/gallery/기쁨3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  해갈의 기쁨 <br><br> <strong>설교자:</strong> <br> 분당우리 교회 이찬수 목사
+
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 기쁨4 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=W6_f-kfJA78"><img src="img/gallery/기쁨4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  하나님을 알아가는 기쁨 <br><br> <strong>설교자:</strong> <br> 선한목자 교회 유기성 목사
+
+
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 기쁨5 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=QOU6zlXfG6I"><img src="img/gallery/기쁨5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  하나님을 알아가는 기쁨 <br><br> <strong>설교자:</strong> <br> 선한목자 교회 유기성 목사
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 기쁨6 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=O-KAP3n2Ofg&t=1075s"><img src="img/gallery/기쁨6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  주 안에서의 기쁨 <br><br> <strong>설교자:</strong> <br> 사랑의 교회 옥한음 목사님
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 위로1 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=JpNOlCi816E"><img src="img/gallery/위로1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  나 혼자 밖에 없구나 하는 순간에도 <br> <strong>설교자:</strong> <br> 이용규 선교사
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 위로2 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=-3Tj5rmbn40"><img src="img/gallery/위로2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  우리를 위로하시는 하나님 <br><br> <strong>설교자:</strong> <br> 분당우리 교회 이찬수 목사
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 위로3 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=v9im17GhCWo"><img src="img/gallery/위로3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  힘들고 어려울 때, 우울에 빠질 때  <br> <strong>설교자:</strong> <br> 사랑의 교회 옥한흠 목사
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 위로4 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://youtu.be/FxM-JR6jWAc"><img src="img/gallery/위로4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  하늘의 지혜로 살 것인가? 땅의 지혜로 살 것인가?  <br> <strong>설교자:</strong> <br> 분당우리교회 장성민 목사
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 위로5 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=fF7dRjMmc4M"><img src="img/gallery/위로5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  하나님의 위로   <br><br> <strong>설교자:</strong> <br> 하용조 목사 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 위로6 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=Fj2LwKJFA60"><img src="img/gallery/위로6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>설교 제목:</strong> <br>  암에게 등을 보이지 말라  <br> <strong>설교자:</strong> <br> 높은 뜻 연합선교회 김동호 목사
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 영어는 찬양 -->
+                    <!-- joy1 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=G223U53OPv8"><img src="img/gallery/joy1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br>  기쁨의 날 주시네  <br><br> <strong>싱어:</strong> <br> 마커스 워십(달빛찬양)&emsp;&emsp;
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- joy2 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=RHocR7Jxmc8"><img src="img/gallery/joy2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 나 주님의 기쁨 되기 원하네  <br> <strong>싱어:</strong> <br> 호산나 싱어즈
+                                            &emsp;&emsp;
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- joy3 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=pNP-WlqZJSg"><img src="img/gallery/joy3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 멈출 수 없네&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; <br><br> <strong>싱어:</strong> <br> 강찬
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- joy4 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=GuDB4odo3AY"><img src="img/gallery/joy4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 기뻐해 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br><br> <strong>싱어:</strong> <br> 제이어스
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- joy5 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=4o0QfTlH9_M"><img src="img/gallery/joy5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 주 예수 기뻐 찬양해 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> 호산나싱어즈
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- joy6 -->
+                    <div class="LSKimg tm-gallery-item happy" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=0Eq3R4P_NdQ"><img src="img/gallery/joy6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 꽃들도 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br><br> <strong>싱어:</strong> <br> 마커스 워십
+
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- sad1 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=o6tnMClRKY8"><img src="img/gallery/sad1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 주 내게 향하신 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> 김윤진
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- sad2 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=yhiCeCJ2zbU"><img src="img/gallery/sad2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 낮은 곳으로 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> WELOVE
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- sad3 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=ZzM8z8Rmf7c"><img src="img/gallery/sad3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 하늘을 봐 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> 강찬
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- sad4 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=2zWQYey2buQ"><img src="img/gallery/sad4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 예배하는 이에게 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> 김윤진
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- sad5 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=tHlPdYZPfQs"><img src="img/gallery/sad5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 사랑 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br><br> <strong>싱어:</strong> <br> 김윤진
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- sad6 -->
+                    <div class="LSKimg tm-gallery-item sad" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=2sMGemN5WBM"><img src="img/gallery/sad6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 함께 있으니 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> 전은주
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- thank1 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=-558u13QeN8"><img src="img/gallery/thank1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> Thank you Lord &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br>마커스 워십
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- thank2 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=Oyoz2WY2vdg"><img src="img/gallery/thank2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 곤한 내 영혼 편히 쉴 곳과 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br>리스너즈
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- thank3 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=jm_fUziwymg"><img src="img/gallery/thank3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 감사함으로 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br>마커스 워십
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- thank4 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=WJCk35xzHFM"><img src="img/gallery/thank4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 감사 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br><br> <strong>싱어:</strong> <br> 지선
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- thank5 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=CCdcKd0Q5pU"><img src="img/gallery/thank5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 나 여호와께 감사할 것은 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br>  류수영
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- thank6 -->
+                    <div class="LSKimg tm-gallery-item thanks2" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=yACRf_5q2ag"></a><img src="img/gallery/thank6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 오늘을 감사하는 이유 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br>  풀리버 워십
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- comfort1 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=H79FL5F4Mak"><img src="img/gallery/ro1.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 나의 한숨을 바꾸셨네 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br>  소진영
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- comfort2 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=AXCuHNnHRRM"><img src="img/gallery/ro2.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 은혜 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br><br> <strong>싱어:</strong> <br>  마커스 워십
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- comfort3 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=Dy82rJfUvNQ"><img src="img/gallery/ro3.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 주만 의지해 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br>  마커스 워십
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- comfort4 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=kshAVrUeANI"><img src="img/gallery/ro4.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 언제나 주님은 사랑 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> 쟁과 자가들
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- comfort5 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=A0FUMbDKmLA"><img src="img/gallery/ro5.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 시간을 뚫고  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> WELOVE
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- comfort6 -->
+                    <div class="LSKimg tm-gallery-item comfort" style = "display:inline-block;">  
+                        <div style = "float:left;">
+                            <a href="https://www.youtube.com/watch?v=FV5nMb93UwY"><img src="img/gallery/ro6.png" alt="Gallery item" class="tm-img-responsive" /></a>
+                        </div>
+                        
+                        <div>
+                            <table style=" border:3px solid #66a8eb; border-radius:5px; background-color: #c8f0c8;" >
+                                <tr>
+                                    <td style = "text-align:left;">
+                                        <p style = "font-size: 18px;"> <strong>곡 제목: </strong> <br> 내 모습 이대로  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> <strong>싱어:</strong> <br> 제이어스
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+
+        </section>  
         <!-- #4 = Contact 구간 -->
         <section id="contact" class="tm-bg-color-5 tm-mb-3">
-            <h2 class="tm-text-white tm-contact-title">.04 Contact Us</h2>
+            <h2 class="tm-text-white tm-contact-title">Contact Us</h2>
             <div class="tm-bg-color-white tm-contact-main">
                 <div class="map-outer">
                     <div class="gmap-canvas"> <!-- 커스텀 지도 -->
@@ -270,8 +1993,9 @@ https://templatemo.com/tm-544-comparto
                             4. Copy only URL and paste it within the src="" field below
                         -->
                         <iframe width="100%" height="400" id="gmap-canvas"
-                            src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.6060703705934!2d129.38625851414747!3d36.103089680098016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35671cb0aeeab729%3A0x60ae6f217961dc9!2z7ZWc64-Z64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1625723891557!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
                     </div>
                 </div>
                 <!-- 이름, 이메일, Message -->
@@ -306,17 +2030,18 @@ https://templatemo.com/tm-544-comparto
         </section>
         <!-- 소셜 미디어 버튼 -->
         <div class="tm-mb-4 text-center tm-social-s">
-            <a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
-            <a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
-            <a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
-            <a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
+            <a href="https://fb.com/handong.univ/" target = "_blank" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+            <a href="https://instagram.com/official_hgu/" target = "_blank" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+            <a href="https://twitter.com/handonguniv" target = "_blank" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+            <a href="https://youtube.com/c/HandongUniv/channels" target = "_blank" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
         </div>
         <!-- 마지막 Footer -->
         <footer class="text-center tm-mb-1">
             <!-- handong -->
-            <p>Copyright &copy; 2020 Comparto Studio 
+            <p>
+                한동대학교 앱 프로그래밍 팀플 ("성인이세연") 17조 웹페이지
+            </p>
             
-            - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
         </footer>
     </div>
     <!-- 각 기능들 JS -->
@@ -324,6 +2049,7 @@ https://templatemo.com/tm-544-comparto
     <script src="js/imagesloaded.pkgd.min.js"></script> <!-- https://imagesloaded.desandro.com/ -->
     <script src="js/isotope.pkgd.min.js"></script> <!-- https://isotope.metafizzy.co/ -->
     <script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script src = "js/LSK.js"></script>
     <script>
 
         // Scroll to Top button
